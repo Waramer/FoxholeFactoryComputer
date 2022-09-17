@@ -61,13 +61,13 @@ raw_data = [
                                         [180  ,[-4      ,0   ,0   ,0    ,0   ,-150 ,0   ,0    ,0    ,60    ,0    ,0     ,-300 ,0      ,0     ,260  ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Coal + Water -> Coke + Heavy Oil'],
 #=========================================================================================================================================================================================================================================================================================================
 # Oil Refinery                           Time   Elec     LDi  Oil  LOil  Wat  LWat  Pet  LPet  HOil  LHOil  EOil  LEOil  Coal  Sulfur  Compo  Coke  CMat  Salv  PCMat  SCMat  AMat1  AMat2  AMat3  AMat4  AMat5  Pipe  Conc  Sand  Wire  MetBar  EMat  HEMat  Flame  75  94.5  120  150  250  300  HER  FireR
-                                        [150  ,[-1      ,0   ,0   ,-150 ,0   ,0    ,0   ,0    ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Oil -> Petrol'],
+                                        [150  ,[-1      ,0   ,0   ,-150 ,0   ,0    ,0   ,150  ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Oil -> Petrol'],
 # Reformer
-                                        [150  ,[-1      ,0   ,0   ,-120 ,0   ,-30  ,0   ,0    ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Oil + Water -> Petrol'],
+                                        [150  ,[-1      ,0   ,0   ,-120 ,0   ,-30  ,0   ,150  ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Oil + Water -> Petrol'],
 # Cracking Unit
-                                        [160  ,[-1.5    ,0   ,0   ,-150 ,0   ,0    ,0   ,0    ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Heavy Oil'],
+                                        [160  ,[-1.5    ,0   ,0   ,-150 ,0   ,0    ,0   ,0    ,0    ,90    ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Heavy Oil'],
 # Petrochimical Plant
-                                        [160  ,[-2      ,0   ,0   ,0    ,0   ,0    ,0   ,0    ,0    ,-90   ,0    ,0     ,0    ,-20    ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Enriched Oil'],
+                                        [160  ,[-2      ,0   ,0   ,0    ,0   ,0    ,0   ,0    ,0    ,-90   ,90   ,0     ,0    ,-20    ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Enriched Oil'],
 #=========================================================================================================================================================================================================================================================================================================
 # Ammunition Factory                     Time   Elec     LDi  Oil  LOil  Wat  LWat  Pet  LPet  HOil  LHOil  EOil  LEOil  Coal  Sulfur  Compo  Coke  CMat  Salv  PCMat  SCMat  AMat1  AMat2  AMat3  AMat4  AMat5  Pipe  Conc  Sand  Wire  MetBar  EMat  HEMat  Flame  75  94.5  120  150  250  300  HER  FireR
                                         [25   ,[-4      ,0   ,0   ,0    ,0   ,0    ,0   ,0    ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,-1   ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,-1    ,1     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Flame Ammo'],
@@ -85,7 +85,7 @@ raw_data = [
 # Diesel Power Plant                     Time   Elec     LDi  Oil  LOil  Wat  LWat  Pet  LPet  HOil  LHOil  EOil  LEOil  Coal  Sulfur  Compo  Coke  CMat  Salv  PCMat  SCMat  AMat1  AMat2  AMat3  AMat4  AMat5  Pipe  Conc  Sand  Wire  MetBar  EMat  HEMat  Flame  75  94.5  120  150  250  300  HER  FireR
                                         [45   ,[5       ,-25 ,0   ,0    ,0   ,0    ,0   ,0    ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Diesel -> Electricity'],
 # Petrol Power Plant
-                                        [90   ,[12      ,0   ,0   ,0    ,0   ,0    ,-50 ,0    ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Petrol -> Electricity'],
+                                        [90   ,[12      ,0   ,0   ,0    ,0   ,0    ,0   ,-50  ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Petrol -> Electricity'],
 # Power Station
                                         [90   ,[10      ,0   ,0   ,-50  ,0   ,0    ,0   ,0    ,0    ,0     ,0    ,0     ,0    ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Oil -> Electricity'],
                                         [90   ,[10      ,0   ,0   ,0    ,0   ,-25  ,0   ,0    ,0    ,0     ,0    ,0     ,-60  ,0      ,0     ,0    ,0    ,0    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0    ,0    ,0    ,0    ,0      ,0    ,0     ,0     ,0  ,0    ,0   ,0   ,0   ,0   ,0   ,0   ],'Coal -> Electricity'],
@@ -167,7 +167,8 @@ while action != 'c':
         for pp in availableProcesses:
             use = input('Do you want to use the process '+str(raw_data[pp][2])+' ? (y,n) ')
             if use=='y': processUsed.append(pp)
-        for pp in processUsed : inputs[pp] += 1
+        number = int(input('How many times this building must be added ? '))
+        for pp in processUsed : inputs[pp] += number
 
 
 # ===== CALCULATION =====
